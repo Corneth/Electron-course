@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "include": [
+  ],
+  "exclude": [
+    "./src/electron"
+  ],
+  "references": [
+    { "path": "./tsconfig.app.json"},
+    { "path": "./tsconfig.node.json"}
+  ]
+}

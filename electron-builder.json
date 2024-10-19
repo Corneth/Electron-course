@@ -1,0 +1,16 @@
+{
+  "appId": "com.thomas.electron-course",
+  "files": ["dist-electron","dist-react"],
+  "icon": "DesktopIcon.png",
+  "mac":{
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+
+  },
+  "win": {
+    "target": ["portable","msi"]
+  }
+}
